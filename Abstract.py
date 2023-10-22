@@ -33,3 +33,16 @@ print(f"Area Of Circle is ={Circle.area()}")
 print(f"Perimeter Of Circle is ={Circle.perimeter()}")
 print(f"Area Of Square is ={square.area()}")
 print(f"Perimeter Of Square is ={square.perimeter()}")
+
+# Initializing the loop for i in range(0, 100):
+radius = int(input("Enter radius of circle: ")) 
+side = int(input("Enter side of square: ")) 
+circle = circle(radius)
+square = Square(side) 
+print("When radius is", radius) 
+print("	")
+print(f"Area of a circle is {circle.area()}") 
+print(f"Perimeter of a circle is {circle.perimeter()}") 
+print("	")
+print("When side is", side)
+
